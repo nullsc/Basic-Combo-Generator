@@ -1,4 +1,4 @@
-# Basic-Combo-Generator
+# Basic Combo List Generator
 
 Small tool coded in Python to generate a combination of two lists
 
