@@ -37,5 +37,6 @@ file.close()
 z.close()
 file2.close()
 
+print("List generated! in {}".format(outputFile))
 print("Complete")
 
