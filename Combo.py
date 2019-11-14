@@ -4,6 +4,7 @@
 #basic combolist generator
 #Used for pentesting, enables a user to generate a list of emails with different passwords that 
 #can be used to pentest your networks user accounts
+#to do - add arg parse
 
 import sys 
 
