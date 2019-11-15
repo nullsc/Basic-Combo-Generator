@@ -29,9 +29,7 @@ if(len(sys.argv) == 4):
 
 emailList = sys.argv[1]
 passList = sys.argv[2]
-#emailList = "emails.txt" #for debug
-#passList = "passwords.txt"
-outputFile = "output.txt"
+outputFile = "output.txt" #where the data will be written to
 
 
 print("Loaded email list: {}".format(str(emailList)))
@@ -41,7 +39,7 @@ with open(emailList, 'rt') as file:
      for email in file:
          with open(passList, 'rt') as file2:
             for password in file2:
-                if(VERBOSE): print(email.strip() + SEPARATOR + password.strip())
+                if(VERBOSE): print(email.strip() + SEPARATOR + password.strip()) #print out to cmd
                 with open(outputFile, 'at') as z:
                     z.write(email.strip() + SEPARATOR + password.strip() + "\n")
 
