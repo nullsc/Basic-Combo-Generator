@@ -25,7 +25,7 @@ if(len(sys.argv) == 4):
         VERBOSE = True
     else:
         print("Verbose mode off")
-        VERBOSE = False
+        #VERBOSE = False
 
 emailList = sys.argv[1]
 passList = sys.argv[2]
