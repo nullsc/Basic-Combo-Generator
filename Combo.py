@@ -12,8 +12,8 @@ ver = "0.1.2"
 print("Basic combolist generator version {}".format(ver))
 print("Created by github.com/nullsc \n")
 
-VERBOSE = False
-SEPARATOR = ":"
+VERBOSE = False #print out info
+SEPARATOR = ":" #the part between username & password
 
 if(len(sys.argv) < 3):
     print("Usage: combo.py [email_list] [password_list] [-v for verbose (optional)]")
