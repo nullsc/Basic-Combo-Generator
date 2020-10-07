@@ -44,8 +44,6 @@ with open(emailList, 'rt') as file:
                     z.write(email.strip() + SEPARATOR + password.strip() + "\n")
 
 
-file.close() #no need to close on every iteration
-z.close()
-file2.close()
+#with closes files automatically
 
 print("List generated! in {}".format(outputFile))
